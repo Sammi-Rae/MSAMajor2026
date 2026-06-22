@@ -10,7 +10,7 @@ app.config["DEBUG"] = True
 # Create a route for the home page of the application
 @app.route('/', methods = ['GET'])
 def index():
-    return "<h1>Student Data API</h1>"
+    return "<h1>My name is Sami Claibourn</h1>"
 # Create endpoints for the funcitons we will create
 # Run the application
 app.run(debug=True)
